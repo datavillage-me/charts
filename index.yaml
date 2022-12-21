@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   cage:
   - apiVersion: v2
-    created: "2022-12-21T12:32:55.12762279Z"
+    created: "2022-12-21T12:44:19.748771767Z"
     dependencies:
     - condition: neo4j-standalone.enabled
       name: neo4j-standalone
@@ -17,7 +17,7 @@ entries:
       name: postgresql
       repository: https://charts.bitnami.com/bitnami
       version: "12.0"
-    digest: 57dbf77a09e71068933f3a34d49b267281bbb6199c9373d6523161866208d07e
+    digest: 335905a866ce8fe7e6410b109121c578e0de69bc69b6393d2183a203cb3d0e72
     icon: https://datavillage.me/assets/images/logo.svg
     maintainers:
     - email: loic@deeperanalytics.be
@@ -28,8 +28,8 @@ entries:
     version: 1.0.0
   operator:
   - apiVersion: v2
-    created: "2022-12-21T12:32:55.127901594Z"
-    digest: f3952ee55e21029e73709bf33ee2c69551f70848e57f6023ce32a311ec51e3bc
+    created: "2022-12-21T12:44:19.749017666Z"
+    digest: bf56b5480f6da768cfff9b16c0b8fd240d4fceef92c512a42622f5747def09a7
     icon: https://datavillage.me/assets/images/logo.svg
     maintainers:
     - email: loic@deeperanalytics.be
@@ -38,4 +38,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.0.0.tgz
     version: 1.0.0
-generated: "2022-12-21T12:32:55.115982733Z"
+generated: "2022-12-21T12:44:19.738401212Z"
