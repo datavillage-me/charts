@@ -2,12 +2,8 @@ apiVersion: v1
 entries:
   cage:
   - apiVersion: v2
-    created: "2022-12-21T13:15:59.986841602Z"
+    created: "2023-01-04T14:00:06.091682543Z"
     dependencies:
-    - condition: neo4j-standalone.enabled
-      name: neo4j-standalone
-      repository: https://helm.neo4j.com/neo4j
-      version: 4.4.9
     - condition: neo4j.enabled
       name: neo4j
       repository: https://neo4j-contrib.github.io/neo4j-helm/
@@ -17,7 +13,7 @@ entries:
       name: postgresql
       repository: https://charts.bitnami.com/bitnami
       version: "12.0"
-    digest: 1dc552d27c36a6bdea74ed3c316106cf26bc47df3411f1dfadb8ffc43a8af12a
+    digest: bffba8aad5371d557f993b317bb45c0fc57f1f596d74a5b22815001089719894
     icon: https://datavillage.me/assets/images/logo.svg
     maintainers:
     - email: loic@deeperanalytics.be
@@ -28,8 +24,8 @@ entries:
     version: 1.0.0
   operator:
   - apiVersion: v2
-    created: "2022-12-21T13:15:59.987218609Z"
-    digest: 929f93cde49758ba451db8dd94520d97dea96c1689207f50a0ae72c862bc69fa
+    created: "2023-01-04T14:00:06.092074651Z"
+    digest: 37d9bf4fcc7af4f58d34a6df5ef833fe0efc1db341c5a2297f12122a309f657d
     icon: https://datavillage.me/assets/images/logo.svg
     maintainers:
     - email: loic@deeperanalytics.be
@@ -38,4 +34,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.0.0.tgz
     version: 1.0.0
-generated: "2022-12-21T13:15:59.973570449Z"
+generated: "2023-01-04T14:00:06.083486973Z"
