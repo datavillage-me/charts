@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   cage:
   - apiVersion: v2
-    created: "2023-01-04T14:46:17.47671963Z"
+    created: "2023-01-13T09:02:19.515406361Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -13,7 +13,7 @@ entries:
       name: postgresql
       repository: https://charts.bitnami.com/bitnami
       version: "12.0"
-    digest: f92dfbd22a3a7577c3115f65ff07214b8b0e7da77eb079de686b8107f6fc3068
+    digest: 4d14b4bf2a557649c6c7cd7b643e6d4223fa64e59b09a1bde868801e6eecb237
     icon: https://datavillage.me/assets/images/logo.svg
     maintainers:
     - email: loic@deeperanalytics.be
@@ -24,8 +24,8 @@ entries:
     version: 1.0.0
   operator:
   - apiVersion: v2
-    created: "2023-01-04T14:46:17.477472137Z"
-    digest: 4977e73767e10c71af06b9945a27c9de136584ecbcf58d4a15d98625af8a4c5c
+    created: "2023-01-13T09:02:19.51586827Z"
+    digest: 45edd81397d1193b70778143c687d81b342a268c616cdd4ccf4d06a1e5fb01e4
     icon: https://datavillage.me/assets/images/logo.svg
     maintainers:
     - email: loic@deeperanalytics.be
@@ -34,4 +34,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.0.0.tgz
     version: 1.0.0
-generated: "2023-01-04T14:46:17.464330208Z"
+generated: "2023-01-13T09:02:19.504673371Z"
