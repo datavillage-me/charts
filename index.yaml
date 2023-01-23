@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   cage:
   - apiVersion: v2
-    created: "2023-01-23T15:19:33.748190006Z"
+    created: "2023-01-23T15:19:55.453164925Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -23,7 +23,28 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.1.2.tgz
     version: 1.1.2
   - apiVersion: v2
-    created: "2023-01-23T15:19:33.739788921Z"
+    created: "2023-01-23T15:19:55.445694757Z"
+    dependencies:
+    - condition: neo4j.enabled
+      name: neo4j
+      repository: https://neo4j-contrib.github.io/neo4j-helm/
+      version: 4.4.9
+    - alias: postgresql
+      condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: "12.0"
+    digest: 461edebc1dbe3a936bc215160a94f2ab91ba355cd5e193234f793efb4cc01a2e
+    icon: https://datavillage.me/assets/images/logo.svg
+    maintainers:
+    - email: loic@deeperanalytics.be
+      name: Loic Quertenmont
+    name: cage
+    urls:
+    - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v2
+    created: "2023-01-23T15:19:55.43705088Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -44,7 +65,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v2
-    created: "2023-01-23T15:19:33.731138527Z"
+    created: "2023-01-23T15:19:55.429070008Z"
     dependencies:
     - condition: neo4j-standalone.enabled
       name: neo4j-standalone
@@ -70,7 +91,7 @@ entries:
     version: 1.0.0
   operator:
   - apiVersion: v2
-    created: "2023-01-23T15:19:33.748950332Z"
+    created: "2023-01-23T15:19:55.454187534Z"
     digest: 43cd85c6f1e3efe44003d20ebec2ea6b707a94f50a5faa147b91e5864122548f
     icon: https://datavillage.me/assets/images/logo.svg
     maintainers:
@@ -81,7 +102,18 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.1.2.tgz
     version: 1.1.2
   - apiVersion: v2
-    created: "2023-01-23T15:19:33.748703724Z"
+    created: "2023-01-23T15:19:55.453919031Z"
+    digest: bb2c72aa8bad047bee6ed9b86fe7787519b157887f5ec4fb5c947bb288f7e4fc
+    icon: https://datavillage.me/assets/images/logo.svg
+    maintainers:
+    - email: loic@deeperanalytics.be
+      name: Loic Quertenmont
+    name: operator
+    urls:
+    - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v2
+    created: "2023-01-23T15:19:55.453671429Z"
     digest: 72d30f4691062b26281380f4e52eb1a65d328aaf9608b651235d442498e6be54
     icon: https://datavillage.me/assets/images/logo.svg
     maintainers:
@@ -92,7 +124,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v2
-    created: "2023-01-23T15:19:33.748450815Z"
+    created: "2023-01-23T15:19:55.453409227Z"
     digest: 1d9745de492ed9686b4cc5bd245660be12a24c82a9bc4a4886fc02607bedfece
     icon: https://datavillage.me/assets/images/logo.svg
     maintainers:
@@ -102,4 +134,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.0.0.tgz
     version: 1.0.0
-generated: "2023-01-23T15:19:33.720730373Z"
+generated: "2023-01-23T15:19:55.417708205Z"
