@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   cage:
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.061623748Z"
+    created: "2023-11-30T13:33:47.094490352Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -13,7 +13,28 @@ entries:
       name: postgresql
       repository: https://charts.bitnami.com/bitnami
       version: "12.0"
-    digest: 4406de36a316acdb681e79234d209bf6bff4f41d0870da0c3782cc44c4cf5f18
+    digest: 92777bac42f4a3b3d72ed15d2105895a0844a0acb830e72263d3a974a94a5a46
+    icon: https://datavillage.me/assets/images/logo.svg
+    maintainers:
+    - email: loic@deeperanalytics.be
+      name: Loic Quertenmont
+    name: cage
+    urls:
+    - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.35.0.tgz
+    version: 1.35.0
+  - apiVersion: v2
+    created: "2023-11-30T13:33:47.085467015Z"
+    dependencies:
+    - condition: neo4j.enabled
+      name: neo4j
+      repository: https://neo4j-contrib.github.io/neo4j-helm/
+      version: 4.4.9
+    - alias: postgresql
+      condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: "12.0"
+    digest: 8affe5a887d2eb23a82d9db8d9d5e22cf60ef15521847f1f3467a864641d0cba
     icon: https://datavillage.me/assets/images/logo.svg
     maintainers:
     - email: loic@deeperanalytics.be
@@ -23,7 +44,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.34.0.tgz
     version: 1.34.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.054128319Z"
+    created: "2023-11-30T13:33:47.077925052Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -44,7 +65,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.33.0.tgz
     version: 1.33.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.039697769Z"
+    created: "2023-11-30T13:33:47.067150947Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -65,7 +86,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.31.0.tgz
     version: 1.31.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.032072038Z"
+    created: "2023-11-30T13:33:47.059459386Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -86,7 +107,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.30.1.tgz
     version: 1.30.1
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.019226115Z"
+    created: "2023-11-30T13:33:47.051148736Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -107,7 +128,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.30.0.tgz
     version: 1.30.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.003153437Z"
+    created: "2023-11-30T13:33:47.035160125Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -128,7 +149,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.29.0.tgz
     version: 1.29.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:05.993718274Z"
+    created: "2023-11-30T13:33:47.026350685Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -149,7 +170,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.28.0.tgz
     version: 1.28.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:05.983676201Z"
+    created: "2023-11-30T13:33:47.018079334Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -170,7 +191,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.27.0.tgz
     version: 1.27.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:05.975057252Z"
+    created: "2023-11-30T13:33:47.01056997Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -191,7 +212,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.26.0.tgz
     version: 1.26.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:05.967182915Z"
+    created: "2023-11-30T13:33:47.001620332Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -212,7 +233,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.25.0.tgz
     version: 1.25.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:05.958426664Z"
+    created: "2023-11-30T13:33:46.993175685Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -233,7 +254,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.24.0.tgz
     version: 1.24.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:05.950293823Z"
+    created: "2023-11-30T13:33:46.985796918Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -254,7 +275,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.23.0.tgz
     version: 1.23.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:05.943016098Z"
+    created: "2023-11-30T13:33:46.976731382Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -275,7 +296,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.22.0.tgz
     version: 1.22.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:05.933141927Z"
+    created: "2023-11-30T13:33:46.968279635Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -296,7 +317,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.21.0.tgz
     version: 1.21.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:05.925731399Z"
+    created: "2023-11-30T13:33:46.960892869Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -317,7 +338,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.20.0.tgz
     version: 1.20.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:05.90962242Z"
+    created: "2023-11-30T13:33:46.944535365Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -338,7 +359,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.19.0.tgz
     version: 1.19.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:05.902396895Z"
+    created: "2023-11-30T13:33:46.936326613Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -359,7 +380,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.18.0.tgz
     version: 1.18.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:05.893756646Z"
+    created: "2023-11-30T13:33:46.926681588Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -380,7 +401,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.17.0.tgz
     version: 1.17.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:05.886622023Z"
+    created: "2023-11-30T13:33:46.919195123Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -401,7 +422,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.16.0.tgz
     version: 1.16.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:05.878191177Z"
+    created: "2023-11-30T13:33:46.910011689Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -422,7 +443,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.15.0.tgz
     version: 1.15.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:05.869823532Z"
+    created: "2023-11-30T13:33:46.901003652Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -443,7 +464,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.14.3.tgz
     version: 1.14.3
   - apiVersion: v2
-    created: "2023-11-30T12:21:05.862732909Z"
+    created: "2023-11-30T13:33:46.893216893Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -464,7 +485,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.14.2.tgz
     version: 1.14.2
   - apiVersion: v2
-    created: "2023-11-30T12:21:05.854053759Z"
+    created: "2023-11-30T13:33:46.884479151Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -485,7 +506,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.14.1.tgz
     version: 1.14.1
   - apiVersion: v2
-    created: "2023-11-30T12:21:05.845346709Z"
+    created: "2023-11-30T13:33:46.876213001Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -506,7 +527,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.14.0.tgz
     version: 1.14.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:05.838113084Z"
+    created: "2023-11-30T13:33:46.868175046Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -527,7 +548,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.13.0.tgz
     version: 1.13.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:05.829590936Z"
+    created: "2023-11-30T13:33:46.852054338Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -548,7 +569,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.12.4.tgz
     version: 1.12.4
   - apiVersion: v2
-    created: "2023-11-30T12:21:05.820640182Z"
+    created: "2023-11-30T13:33:46.843234097Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -569,7 +590,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.12.3.tgz
     version: 1.12.3
   - apiVersion: v2
-    created: "2023-11-30T12:21:05.812411539Z"
+    created: "2023-11-30T13:33:46.832331995Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -590,7 +611,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.12.2.tgz
     version: 1.12.2
   - apiVersion: v2
-    created: "2023-11-30T12:21:05.801402449Z"
+    created: "2023-11-30T13:33:46.824146543Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -611,7 +632,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.12.1.tgz
     version: 1.12.1
   - apiVersion: v2
-    created: "2023-11-30T12:21:05.794263826Z"
+    created: "2023-11-30T13:33:46.816457682Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -632,7 +653,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.12.0.tgz
     version: 1.12.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:05.786819197Z"
+    created: "2023-11-30T13:33:46.807778339Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -653,7 +674,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.11.0.tgz
     version: 1.11.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:05.778106446Z"
+    created: "2023-11-30T13:33:46.800418172Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -674,7 +695,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.10.0.tgz
     version: 1.10.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.19587287Z"
+    created: "2023-11-30T13:33:47.236787978Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -695,7 +716,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.9.0.tgz
     version: 1.9.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.188496042Z"
+    created: "2023-11-30T13:33:47.228211033Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -716,7 +737,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.8.0.tgz
     version: 1.8.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.179786792Z"
+    created: "2023-11-30T13:33:47.219948383Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -737,7 +758,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.7.3.tgz
     version: 1.7.3
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.172695369Z"
+    created: "2023-11-30T13:33:47.212528017Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -758,7 +779,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.7.2.tgz
     version: 1.7.2
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.163029602Z"
+    created: "2023-11-30T13:33:47.203745576Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -779,7 +800,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.7.1.tgz
     version: 1.7.1
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.155753076Z"
+    created: "2023-11-30T13:33:47.195289529Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -800,7 +821,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.7.0.tgz
     version: 1.7.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.147107427Z"
+    created: "2023-11-30T13:33:47.187892463Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -821,7 +842,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.6.1.tgz
     version: 1.6.1
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.139102988Z"
+    created: "2023-11-30T13:33:47.178776327Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -842,7 +863,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.6.0.tgz
     version: 1.6.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.131994365Z"
+    created: "2023-11-30T13:33:47.170282681Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -863,7 +884,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.5.4.tgz
     version: 1.5.4
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.123543319Z"
+    created: "2023-11-30T13:33:47.162810316Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -884,7 +905,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.5.3.tgz
     version: 1.5.3
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.116181192Z"
+    created: "2023-11-30T13:33:47.153318288Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -905,7 +926,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.5.2.tgz
     version: 1.5.2
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.107536142Z"
+    created: "2023-11-30T13:33:47.145735025Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -926,7 +947,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.5.1.tgz
     version: 1.5.1
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.093069592Z"
+    created: "2023-11-30T13:33:47.131433184Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -947,7 +968,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.5.0.tgz
     version: 1.5.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.085456861Z"
+    created: "2023-11-30T13:33:47.117437237Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -968,7 +989,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.4.1.tgz
     version: 1.4.1
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.074914878Z"
+    created: "2023-11-30T13:33:47.102249412Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -989,7 +1010,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.4.0.tgz
     version: 1.4.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.011300678Z"
+    created: "2023-11-30T13:33:47.042584491Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -1010,7 +1031,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.3.0.tgz
     version: 1.3.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:05.917376354Z"
+    created: "2023-11-30T13:33:46.952136527Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -1031,7 +1052,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.2.0.tgz
     version: 1.2.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:05.744045057Z"
+    created: "2023-11-30T13:33:46.766907378Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -1052,7 +1073,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.1.12.tgz
     version: 1.1.12
   - apiVersion: v2
-    created: "2023-11-30T12:21:05.736767831Z"
+    created: "2023-11-30T13:33:46.758585029Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -1073,7 +1094,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.1.11.tgz
     version: 1.1.11
   - apiVersion: v2
-    created: "2023-11-30T12:21:05.728422787Z"
+    created: "2023-11-30T13:33:46.750492775Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -1094,7 +1115,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.1.10.tgz
     version: 1.1.10
   - apiVersion: v2
-    created: "2023-11-30T12:21:05.770105808Z"
+    created: "2023-11-30T13:33:46.791414235Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -1115,7 +1136,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.1.9.tgz
     version: 1.1.9
   - apiVersion: v2
-    created: "2023-11-30T12:21:05.762982785Z"
+    created: "2023-11-30T13:33:46.783024187Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -1136,7 +1157,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.1.8.tgz
     version: 1.1.8
   - apiVersion: v2
-    created: "2023-11-30T12:21:05.753906828Z"
+    created: "2023-11-30T13:33:46.77566702Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -1157,7 +1178,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.1.2.tgz
     version: 1.1.2
   - apiVersion: v2
-    created: "2023-11-30T12:21:05.720709654Z"
+    created: "2023-11-30T13:33:46.74139824Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -1178,7 +1199,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:05.710285973Z"
+    created: "2023-11-30T13:33:46.733935375Z"
     dependencies:
     - condition: neo4j.enabled
       name: neo4j
@@ -1199,7 +1220,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/cage-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v2
-    created: "2023-11-30T12:21:05.701095115Z"
+    created: "2023-11-30T13:33:46.722514681Z"
     dependencies:
     - condition: neo4j-standalone.enabled
       name: neo4j-standalone
@@ -1225,7 +1246,7 @@ entries:
     version: 1.0.0
   operator:
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.996336811Z"
+    created: "2023-11-30T13:33:48.073723438Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -1243,7 +1264,35 @@ entries:
       name: prometheus
       repository: https://prometheus-community.github.io/helm-charts
       version: ~19.3.3
-    digest: 5eaf814847306afeb31e0363af3824df31c5473cfbd8a75add69cfa6fa18ef01
+    digest: faeed82fc0cd440cf9818e96f88815a330e57de19c84f167f0babf67e19b9e48
+    icon: https://datavillage.me/assets/images/logo.svg
+    maintainers:
+    - email: loic@deeperanalytics.be
+      name: Loic Quertenmont
+    name: operator
+    urls:
+    - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.35.0.tgz
+    version: 1.35.0
+  - apiVersion: v2
+    created: "2023-11-30T13:33:48.049017585Z"
+    dependencies:
+    - condition: loki.enabled
+      name: loki
+      repository: https://grafana.github.io/helm-charts
+      version: ~4.6.0
+    - condition: promtail.enabled
+      name: promtail
+      repository: https://grafana.github.io/helm-charts
+      version: ~6.8.2
+    - condition: grafana.enabled
+      name: grafana
+      repository: https://grafana.github.io/helm-charts
+      version: ~6.50.7
+    - condition: prometheus.enabled
+      name: prometheus
+      repository: https://prometheus-community.github.io/helm-charts
+      version: ~19.3.3
+    digest: 053db7d2685763346ef14604c91b14698d4b822306afcaa37509c0d8e8778255
     icon: https://datavillage.me/assets/images/logo.svg
     maintainers:
     - email: loic@deeperanalytics.be
@@ -1253,7 +1302,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.34.0.tgz
     version: 1.34.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.970750868Z"
+    created: "2023-11-30T13:33:48.024507428Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -1281,7 +1330,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.33.0.tgz
     version: 1.33.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.94541073Z"
+    created: "2023-11-30T13:33:47.99952358Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -1309,7 +1358,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.31.0.tgz
     version: 1.31.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.91994029Z"
+    created: "2023-11-30T13:33:47.974269837Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -1337,7 +1386,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.30.1.tgz
     version: 1.30.1
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.897208197Z"
+    created: "2023-11-30T13:33:47.950628065Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -1365,7 +1414,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.30.0.tgz
     version: 1.30.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.871168847Z"
+    created: "2023-11-30T13:33:47.924801132Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -1393,7 +1442,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.29.0.tgz
     version: 1.29.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.8453735Z"
+    created: "2023-11-30T13:33:47.899804084Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -1421,7 +1470,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.28.0.tgz
     version: 1.28.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.819596955Z"
+    created: "2023-11-30T13:33:47.872909571Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -1449,7 +1498,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.27.0.tgz
     version: 1.27.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.794209116Z"
+    created: "2023-11-30T13:33:47.846254453Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -1477,7 +1526,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.26.0.tgz
     version: 1.26.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.770800211Z"
+    created: "2023-11-30T13:33:47.821674098Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -1505,7 +1554,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.25.0.tgz
     version: 1.25.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.746252787Z"
+    created: "2023-11-30T13:33:47.792620323Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -1533,7 +1582,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.24.0.tgz
     version: 1.24.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.722298272Z"
+    created: "2023-11-30T13:33:47.765997705Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -1561,7 +1610,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.23.0.tgz
     version: 1.23.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.697569645Z"
+    created: "2023-11-30T13:33:47.742190735Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -1589,7 +1638,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.22.0.tgz
     version: 1.22.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.672921819Z"
+    created: "2023-11-30T13:33:47.716678897Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -1617,7 +1666,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.21.0.tgz
     version: 1.21.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.648453796Z"
+    created: "2023-11-30T13:33:47.691603051Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -1645,7 +1694,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.20.0.tgz
     version: 1.20.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.624745086Z"
+    created: "2023-11-30T13:33:47.666385607Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -1673,7 +1722,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.19.0.tgz
     version: 1.19.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.600183161Z"
+    created: "2023-11-30T13:33:47.641741352Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -1701,7 +1750,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.18.0.tgz
     version: 1.18.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.57528783Z"
+    created: "2023-11-30T13:33:47.614467246Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -1729,7 +1778,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.17.0.tgz
     version: 1.17.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.549433483Z"
+    created: "2023-11-30T13:33:47.588714012Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -1757,7 +1806,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.16.0.tgz
     version: 1.16.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.525359167Z"
+    created: "2023-11-30T13:33:47.563139074Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -1785,7 +1834,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.15.0.tgz
     version: 1.15.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.502890979Z"
+    created: "2023-11-30T13:33:47.536893049Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -1813,7 +1862,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.14.3.tgz
     version: 1.14.3
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.479707778Z"
+    created: "2023-11-30T13:33:47.51250499Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -1841,7 +1890,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.14.2.tgz
     version: 1.14.2
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.452022599Z"
+    created: "2023-11-30T13:33:47.48656796Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -1869,7 +1918,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.14.1.tgz
     version: 1.14.1
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.426902265Z"
+    created: "2023-11-30T13:33:47.461415515Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -1897,7 +1946,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.14.0.tgz
     version: 1.14.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.402999251Z"
+    created: "2023-11-30T13:33:47.438482529Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -1925,7 +1974,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.13.0.tgz
     version: 1.13.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.380043254Z"
+    created: "2023-11-30T13:33:47.413732477Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -1953,7 +2002,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.12.4.tgz
     version: 1.12.4
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.355283226Z"
+    created: "2023-11-30T13:33:47.388195939Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -1981,7 +2030,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.12.3.tgz
     version: 1.12.3
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.332715536Z"
+    created: "2023-11-30T13:33:47.362649601Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -2009,7 +2058,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.12.2.tgz
     version: 1.12.2
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.307994309Z"
+    created: "2023-11-30T13:33:47.33782615Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -2037,7 +2086,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.12.1.tgz
     version: 1.12.1
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.284024394Z"
+    created: "2023-11-30T13:33:47.31349709Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -2065,7 +2114,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.12.0.tgz
     version: 1.12.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.254834089Z"
+    created: "2023-11-30T13:33:47.288152549Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -2093,7 +2142,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.11.0.tgz
     version: 1.11.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.225598784Z"
+    created: "2023-11-30T13:33:47.26431148Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -2121,7 +2170,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.10.0.tgz
     version: 1.10.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:07.313486295Z"
+    created: "2023-11-30T13:33:48.397072689Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -2149,7 +2198,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.9.0.tgz
     version: 1.9.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:07.287841451Z"
+    created: "2023-11-30T13:33:48.371850345Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -2177,7 +2226,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.8.0.tgz
     version: 1.8.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:07.262520213Z"
+    created: "2023-11-30T13:33:48.347074893Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -2205,7 +2254,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.7.3.tgz
     version: 1.7.3
   - apiVersion: v2
-    created: "2023-11-30T12:21:07.239586017Z"
+    created: "2023-11-30T13:33:48.320229979Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -2233,7 +2282,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.7.2.tgz
     version: 1.7.2
   - apiVersion: v2
-    created: "2023-11-30T12:21:07.215689404Z"
+    created: "2023-11-30T13:33:48.294403546Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -2261,7 +2310,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.7.1.tgz
     version: 1.7.1
   - apiVersion: v2
-    created: "2023-11-30T12:21:07.191545586Z"
+    created: "2023-11-30T13:33:48.270776773Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -2289,7 +2338,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.7.0.tgz
     version: 1.7.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:07.168172582Z"
+    created: "2023-11-30T13:33:48.246244617Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -2317,7 +2366,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.6.1.tgz
     version: 1.6.1
   - apiVersion: v2
-    created: "2023-11-30T12:21:07.143993664Z"
+    created: "2023-11-30T13:33:48.221134271Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -2345,7 +2394,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.6.0.tgz
     version: 1.6.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:07.118527124Z"
+    created: "2023-11-30T13:33:48.196208422Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -2373,7 +2422,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.5.4.tgz
     version: 1.5.4
   - apiVersion: v2
-    created: "2023-11-30T12:21:07.091895563Z"
+    created: "2023-11-30T13:33:48.172928743Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -2401,7 +2450,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.5.3.tgz
     version: 1.5.3
   - apiVersion: v2
-    created: "2023-11-30T12:21:07.069204671Z"
+    created: "2023-11-30T13:33:48.148515885Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -2429,7 +2478,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.5.2.tgz
     version: 1.5.2
   - apiVersion: v2
-    created: "2023-11-30T12:21:07.04430414Z"
+    created: "2023-11-30T13:33:48.123461838Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -2457,7 +2506,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.5.1.tgz
     version: 1.5.1
   - apiVersion: v2
-    created: "2023-11-30T12:21:07.020060221Z"
+    created: "2023-11-30T13:33:48.099178278Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -2485,7 +2534,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.5.0.tgz
     version: 1.5.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.997177025Z"
+    created: "2023-11-30T13:33:48.074439525Z"
     digest: 16cbb345cc264a5ffd630922b3ec6cd7d0a35c7871516a3115660a8aab2e5534
     icon: https://datavillage.me/assets/images/logo.svg
     maintainers:
@@ -2496,7 +2545,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.4.1.tgz
     version: 1.4.1
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.996790019Z"
+    created: "2023-11-30T13:33:48.074104231Z"
     digest: 0273564d8cf4d75208bd823c55776f92ecd4784a33e732df368a2a3e9449f4b4
     icon: https://datavillage.me/assets/images/logo.svg
     maintainers:
@@ -2507,7 +2556,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.4.0.tgz
     version: 1.4.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.871522153Z"
+    created: "2023-11-30T13:33:47.925094327Z"
     digest: 6646862bae91b2e2216bb10e57b7c231110e9d20f24b1ae46ff8077709a14d5c
     icon: https://datavillage.me/assets/images/logo.svg
     maintainers:
@@ -2518,7 +2567,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.3.0.tgz
     version: 1.3.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.625060491Z"
+    created: "2023-11-30T13:33:47.666687201Z"
     digest: 77faacf68bf650233bcfe39ff29651bd1eda520d0a98944a8d63ee0726605567
     icon: https://datavillage.me/assets/images/logo.svg
     maintainers:
@@ -2529,7 +2578,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.2.0.tgz
     version: 1.2.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.198065208Z"
+    created: "2023-11-30T13:33:47.238281251Z"
     digest: 8e4b59db41fb866a3c9cfd744f871bbb74a782446fbdf533010889ea78b6c297
     icon: https://datavillage.me/assets/images/logo.svg
     maintainers:
@@ -2540,7 +2589,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.1.12.tgz
     version: 1.1.12
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.197718502Z"
+    created: "2023-11-30T13:33:47.238046855Z"
     digest: 70628ddb585dc24e0f47cc7d553616d005a8c5705af290b2d352a8851f9ff10d
     icon: https://datavillage.me/assets/images/logo.svg
     maintainers:
@@ -2551,7 +2600,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.1.11.tgz
     version: 1.1.11
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.197356995Z"
+    created: "2023-11-30T13:33:47.23780836Z"
     digest: 9c619f8e8c320d182d19cf493de4d507b39e4e0436ac929a46644b840594d97f
     icon: https://datavillage.me/assets/images/logo.svg
     maintainers:
@@ -2562,7 +2611,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.1.10.tgz
     version: 1.1.10
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.199793838Z"
+    created: "2023-11-30T13:33:47.238988038Z"
     digest: 0795c0a3ae0bf2ba026ef0dedcbdcb3cc5eb9d22066929daa15e07f8188b9c7c
     icon: https://datavillage.me/assets/images/logo.svg
     maintainers:
@@ -2573,7 +2622,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.1.9.tgz
     version: 1.1.9
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.199520233Z"
+    created: "2023-11-30T13:33:47.238753442Z"
     digest: a7ad42b819007de68166611231672bbc5b1a3bc59c6d072b82c58ab44b246c55
     icon: https://datavillage.me/assets/images/logo.svg
     maintainers:
@@ -2584,7 +2633,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.1.8.tgz
     version: 1.1.8
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.199087125Z"
+    created: "2023-11-30T13:33:47.238515747Z"
     digest: 43cd85c6f1e3efe44003d20ebec2ea6b707a94f50a5faa147b91e5864122548f
     icon: https://datavillage.me/assets/images/logo.svg
     maintainers:
@@ -2595,7 +2644,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.1.2.tgz
     version: 1.1.2
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.196818186Z"
+    created: "2023-11-30T13:33:47.237560764Z"
     digest: bb2c72aa8bad047bee6ed9b86fe7787519b157887f5ec4fb5c947bb288f7e4fc
     icon: https://datavillage.me/assets/images/logo.svg
     maintainers:
@@ -2606,7 +2655,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.196390379Z"
+    created: "2023-11-30T13:33:47.237312969Z"
     digest: 72d30f4691062b26281380f4e52eb1a65d328aaf9608b651235d442498e6be54
     icon: https://datavillage.me/assets/images/logo.svg
     maintainers:
@@ -2617,7 +2666,7 @@ entries:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v2
-    created: "2023-11-30T12:21:06.196121074Z"
+    created: "2023-11-30T13:33:47.237029074Z"
     digest: 1d9745de492ed9686b4cc5bd245660be12a24c82a9bc4a4886fc02607bedfece
     icon: https://datavillage.me/assets/images/logo.svg
     maintainers:
@@ -2627,4 +2676,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/datavillage-me/charts/gh-pages/operator-1.0.0.tgz
     version: 1.0.0
-generated: "2023-11-30T12:21:05.685618947Z"
+generated: "2023-11-30T13:33:46.711318684Z"
